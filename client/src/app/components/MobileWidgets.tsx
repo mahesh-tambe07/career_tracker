@@ -1,3 +1,5 @@
+//widget file
+
 import { Card, CardContent } from '@mui/material';
 import { Code, Whatshot, Business, TrendingUp } from '@mui/icons-material';
 
@@ -48,7 +50,7 @@ export function MobileWidgets() {
       >
         <CardContent className="p-4">
           <div className="flex flex-col items-center text-center">
-            <Business sx={{ fontSize: 32, color: '#fff', mb: 1 }} />
+            <Business sx={{ fontSize: 34, color: '#fff', mb: 1 }} />
             <div className="text-white text-2xl font-bold">3</div>
             <div className="text-white/80 text-xs mt-1">Referral Ready</div>
           </div>
@@ -59,7 +61,7 @@ export function MobileWidgets() {
       <Card
         sx={{
           background: 'linear-gradient(135deg, #0A6CF1 0%, #1E88E5 100%)',
-          borderRadius: '16px',
+          borderRadius: '18px',
           boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
         }}
       >
