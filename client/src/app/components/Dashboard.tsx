@@ -1,3 +1,4 @@
+//Dashboard.tsx
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -332,7 +333,7 @@ export function Dashboard() {
                   setDrawerOpen(false);
                 }}
                 sx={{
-                  borderRadius: '12px',
+                  borderRadius: '13px',
                   mb: 1,
                   cursor: 'pointer',
                   backgroundColor:
@@ -363,7 +364,7 @@ export function Dashboard() {
           p: 3,
           mt: '64px',
           ml: { xs: 0, md: '260px' },
-          mb: { xs: '56px', md: 0 },
+          mb: { xs: '58px', md: 0 },
         }}
       >
         {renderContent()}
